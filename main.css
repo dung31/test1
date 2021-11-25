@@ -44,23 +44,35 @@ header{
     box-sizing: border-box; */
 }
 .y-search{
-    width: 700px;
+    width:60%;
     height: 40px;
     justify-content: center;
     padding: 0px 4px;
     margin-left: 40px;
+    align-items: center;
+   
+    
 }
 #input-search{
-    width: 544.22px;
+    width: 400px; 
     height: 40px;
+    
+}
+#input-bt {
+    flex: none;
 }
 #bt-search{
-    width: 64px;
+    width: 10%;
     height: 40px;
-    padding: 1px 6px;
-    border: 1px;
+    /* padding: 1px 6px; */
+    /* border: 1px; */
+    /* float: right; */
+    
+    cursor: pointer;
 }
 fal fa-search{
     width: 24px;
     height: 24px;
+    
 }
+
